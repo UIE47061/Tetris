@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100" height="100" rx="15" fill="url(#grad1)"/>
+  
+  <!-- T-piece (俄羅斯方塊經典T型方塊) -->
+  <g>
+    <!-- Top horizontal blocks -->
+    <rect x="25" y="30" width="15" height="15" fill="#00f0ff" stroke="#0090a0" stroke-width="1.5"/>
+    <rect x="42.5" y="30" width="15" height="15" fill="#00f0ff" stroke="#0090a0" stroke-width="1.5"/>
+    <rect x="60" y="30" width="15" height="15" fill="#00f0ff" stroke="#0090a0" stroke-width="1.5"/>
+    
+    <!-- Bottom center block -->
+    <rect x="42.5" y="47.5" width="15" height="15" fill="#00f0ff" stroke="#0090a0" stroke-width="1.5"/>
+    
+    <!-- Shine effects on blocks -->
+    <rect x="26" y="31" width="6" height="6" fill="#ffffff" opacity="0.4"/>
+    <rect x="43.5" y="31" width="6" height="6" fill="#ffffff" opacity="0.4"/>
+    <rect x="61" y="31" width="6" height="6" fill="#ffffff" opacity="0.4"/>
+    <rect x="43.5" y="48.5" width="6" height="6" fill="#ffffff" opacity="0.4"/>
+  </g>
+</svg>

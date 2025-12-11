@@ -20,7 +20,6 @@ const routes: Array<RouteRecordRaw> = [
         path: '/game',
         name: 'Game',
         component: TetrisGame,
-        // 這裡未來可以加入路由守衛 (Navigation Guard) 檢查是否有 Token
     },
     {
         path: '/leaderboard',
