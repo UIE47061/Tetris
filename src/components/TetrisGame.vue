@@ -61,8 +61,6 @@ let durationTimer: any = null; // [新增] 計時器 ID
 const keysPressed = new Set<string>();
 let moveAccum = 0;
 let moveDelay = 100; // 橫移延遲（毫秒）
-let fastMoveDelay = 50; // 快速橫移延遲
-let initialMoveDelay = 150; // 初始延遲
 
 // --- Helper Functions ---
 const randomPiece = (): Piece => {
